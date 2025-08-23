@@ -1,3 +1,5 @@
+//----------------  CHAPTER NO 1 ALL QUESTINS OKAY..-----------------------
+
 // question no 1 
 alert ("helw world");
 
