@@ -18,4 +18,3 @@ alert("Hellow....Ican run JS through my web browser's console");
 
 // question 6 done 
 alert ("new project");
-
