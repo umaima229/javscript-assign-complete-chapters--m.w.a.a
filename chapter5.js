@@ -1,4 +1,4 @@
-// ----------Chapter 5 Questions with Answers-------
+// ----------Chapter 5 + 7 and 9 cause it is DMAS rules and concatination okay  Questions with Answers-------
 
 // question no 1 
 // --------addition-----
