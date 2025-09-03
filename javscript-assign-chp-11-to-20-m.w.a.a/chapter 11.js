@@ -69,4 +69,31 @@ if (d===true){
  }
 
 // -----------questuion no 6-------------
+ var subject1 = +prompt ("math marks 100 out of ?");
+ var subject2 = +prompt ("English marks 100 out of ?");
+ var subject3 = +prompt ("Science marks 100 out of ?");
+ var totalmarks = +prompt("Enter Total Marks");
+ var obtainmarks = subject1+ subject2 +subject3;
+ var percentage= (obtainmarks / totalmarks)*100;
 
+//  find grade
+var grade;
+if (percentage >= 80){
+   grade = "A-one";
+}
+else if (percentage >= 70){
+   grade = "A";
+}
+else if (percentage >= 60){
+   grade = "B";
+}
+else if (percentage >= 50){
+   grade = "C";
+}
+else if (percentage >= 40){
+    grade = "Fail";
+}
+document.write("Total Marks: " + totalmarks + "<br>");
+document.write("Obtained Marks: " + obtainmarks + "<br>");
+document.write("Percentage: " + percentage.toFixed(2) + "%<br>");
+document.write("Grade: " + grade);
