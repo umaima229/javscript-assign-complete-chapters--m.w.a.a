@@ -16,3 +16,5 @@ var now = new Date();
 var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var day =  days[now.getDay()];
 document.write("Today day is\n:" +day +"<hr>");
+
+// Question no 4
